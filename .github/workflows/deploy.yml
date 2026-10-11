@@ -30,13 +30,12 @@ jobs:
         uses: DeterminateSystems/magic-nix-cache-action@main
 
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v5
 
       - name: Build with Hugo
         run: |
-          nix build .#default --print-out-paths
-          cp -r $(nix build .#default --print-out-paths) ./public
-          find ./public -exec touch -h -d "@0" {} +
+          nix develop --command hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

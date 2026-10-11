@@ -1,7 +1,7 @@
 baseURL = 'https://guanmingxing.github.io/'
 defaultContentLanguage = 'zh-cn'
 title = '我的个人博客'
-theme = 'minimal'
+theme = 'PaperMod'
 enableRobotsTXT = true
 
 [languages]
@@ -11,7 +11,7 @@ enableRobotsTXT = true
     weight = 1
 
 [params]
-  author = "Your Name"
+  author = "GMX"
   description = "一个关于技术、生活和思考的个人博客"
 
 [menu]
