@@ -4,9 +4,6 @@ title = 'GMX的个人博客'
 theme = 'PaperMod'
 enableRobotsTXT = true
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-
 [languages]
   [languages.zh-cn]
     locale = 'zh-CN'
@@ -57,15 +54,11 @@ enableRobotsTXT = true
     weight = 4
   [[menu.main]]
     name = "系统"
-    url = "/p/"
+    url = "/system/"
     weight = 5
   [[menu.main]]
     name = "碎碎念"
     url = "/posts/"
-    weight = 5
-  [[menu.main]]
-    name = "搜索"
-    url = "/search/"
     weight = 6
   [[menu.main]]
     name = "关于"
