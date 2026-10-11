@@ -41,17 +41,25 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "文章"
-    url = "/posts/"
+    name = "计算"
+    url = "/computing/"
     weight = 2
   [[menu.main]]
-    name = "AI"
-    url = "/ais/"
+    name = "存储"
+    url = "/storage/"
     weight = 3
+  [[menu.main]]
+    name = "网络"
+    url = "/network/"
+    weight = 4
+  [[menu.main]]
+    name = "碎碎念"
+    url = "/posts/"
+    weight = 5
   [[menu.main]]
     name = "关于"
     url = "/about/"
-    weight = 4
+    weight = 6
 
 [markup]
   [markup.goldmark.renderer]

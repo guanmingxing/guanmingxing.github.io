@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-labelledby="title desc">
+<title id="title">Scalar integer reduction: elapsed time</title>
+<desc id="desc">Eleven measurements per variant. Bars show median; dots show individual runs. Serial median 19.435 ms; four accumulators median 7.177 ms. WSL2, guest CPU 0, GCC 16.2.0.</desc>
+<rect width="800" height="300" fill="#fff"/>
+<g font-family="sans-serif" font-size="15" fill="#1f2937">
+<text x="30" y="30" font-size="20">Same integer sum, different dependency chains</text>
+<path d="M180 60V215" stroke="#e5e7eb"/>
+<text x="180" y="240" text-anchor="middle">0</text>
+<path d="M290 60V215" stroke="#e5e7eb"/>
+<text x="290" y="240" text-anchor="middle">5</text>
+<path d="M400 60V215" stroke="#e5e7eb"/>
+<text x="400" y="240" text-anchor="middle">10</text>
+<path d="M510 60V215" stroke="#e5e7eb"/>
+<text x="510" y="240" text-anchor="middle">15</text>
+<path d="M620 60V215" stroke="#e5e7eb"/>
+<text x="620" y="240" text-anchor="middle">20</text>
+<path d="M730 60V215" stroke="#e5e7eb"/>
+<text x="730" y="240" text-anchor="middle">25</text>
+<text x="25" y="101">1 accumulator</text>
+<rect x="180" y="80" width="427.573" height="30" fill="#2563eb" opacity="0.55"/>
+<circle cx="603.083" cy="88" r="3" fill="#2563eb"/>
+<circle cx="598.473" cy="95" r="3" fill="#2563eb"/>
+<circle cx="598.950" cy="102" r="3" fill="#2563eb"/>
+<circle cx="597.019" cy="88" r="3" fill="#2563eb"/>
+<circle cx="613.877" cy="95" r="3" fill="#2563eb"/>
+<circle cx="607.573" cy="102" r="3" fill="#2563eb"/>
+<circle cx="609.443" cy="88" r="3" fill="#2563eb"/>
+<circle cx="601.388" cy="95" r="3" fill="#2563eb"/>
+<circle cx="608.653" cy="102" r="3" fill="#2563eb"/>
+<circle cx="612.698" cy="88" r="3" fill="#2563eb"/>
+<circle cx="619.861" cy="95" r="3" fill="#2563eb"/>
+<text x="629.861" y="100">19.435 ms</text>
+<text x="25" y="171">4 accumulators</text>
+<rect x="180" y="150" width="157.892" height="30" fill="#0f766e" opacity="0.55"/>
+<circle cx="331.698" cy="158" r="3" fill="#0f766e"/>
+<circle cx="341.554" cy="165" r="3" fill="#0f766e"/>
+<circle cx="331.855" cy="172" r="3" fill="#0f766e"/>
+<circle cx="334.632" cy="158" r="3" fill="#0f766e"/>
+<circle cx="331.703" cy="165" r="3" fill="#0f766e"/>
+<circle cx="350.546" cy="172" r="3" fill="#0f766e"/>
+<circle cx="341.896" cy="158" r="3" fill="#0f766e"/>
+<circle cx="336.183" cy="165" r="3" fill="#0f766e"/>
+<circle cx="342.608" cy="172" r="3" fill="#0f766e"/>
+<circle cx="337.892" cy="158" r="3" fill="#0f766e"/>
+<circle cx="344.106" cy="165" r="3" fill="#0f766e"/>
+<text x="360.546" y="170">7.177 ms</text>
+<text x="455" y="267" text-anchor="middle">Elapsed time (ms), lower is better</text>
+<text x="30" y="290" font-size="12">11 runs; bars = median, dots = samples. WSL2 / guest CPU 0 / GCC 16.2.0 / scalar only.</text>
+</g></svg>
