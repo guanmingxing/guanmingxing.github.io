@@ -61,9 +61,13 @@ enableRobotsTXT = true
     url = "/posts/"
     weight = 6
   [[menu.main]]
+    name = "搜索"
+    url = "/search/"
+    weight = 7
+  [[menu.main]]
     name = "关于"
     url = "/about/"
-    weight = 7
+    weight = 8
 
 [markup]
   [markup.goldmark.renderer]
