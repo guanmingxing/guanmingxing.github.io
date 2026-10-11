@@ -1,6 +1,6 @@
 baseURL = 'https://guanmingxing.github.io/'
 defaultContentLanguage = 'zh-cn'
-title = '我的个人博客'
+title = 'GMX的个人博客'
 theme = 'PaperMod'
 enableRobotsTXT = true
 
@@ -13,6 +13,27 @@ enableRobotsTXT = true
 [params]
   author = "GMX"
   description = "一个关于技术、生活和思考的个人博客"
+  mainSections = ["posts", "ais"]
+
+[params.profileMode]
+  enabled = true
+  title = "GMX的小世界"          # 大标题（不填则用 site.Title）
+  subtitle = "一个关于技术、生活和思考的个人博客"  # 副标题，支持 Markdown
+  imageUrl = "/profile/yuanbao.jpg"       # 头像图片路径（放在 assets/ 或 static/ 下）
+  imageTitle = "头像"             # 头像标题/alt 文本
+  imageWidth = 150               # 头像宽度
+  imageHeight = 150              # 头像高度
+
+  # 社交图标（配置在 params.socialIcons 中，这里也会显示）
+  # ...
+
+  # 按钮
+  [[params.profileMode.buttons]]
+    name = "归档"
+    url = "/archives/"
+  [[params.profileMode.buttons]]
+    name = "GitHub"
+    url = "https://github.com/guanmingxing"
 
 [menu]
   [[menu.main]]
@@ -24,9 +45,13 @@ enableRobotsTXT = true
     url = "/posts/"
     weight = 2
   [[menu.main]]
+    name = "AI"
+    url = "/ais/"
+    weight = 3
+  [[menu.main]]
     name = "关于"
     url = "/about/"
-    weight = 3
+    weight = 4
 
 [markup]
   [markup.goldmark.renderer]
