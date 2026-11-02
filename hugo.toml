@@ -1,6 +1,6 @@
 baseURL = 'https://guanmingxing.github.io/'
 defaultContentLanguage = 'zh-cn'
-title = 'GMX的个人博客'
+title = 'Robot & Chip'
 theme = 'PaperMod'
 enableRobotsTXT = true
 
@@ -12,13 +12,13 @@ enableRobotsTXT = true
 
 [params]
   author = "GMX"
-  description = "一个关于技术、生活和思考的个人博客"
+  description = "聚焦机器人、芯片、计算机技术"
   mainSections = ["posts", "ais"]
 
 [params.profileMode]
   enabled = true
-  title = "GMX的小世界"          # 大标题（不填则用 site.Title）
-  subtitle = "一个关于技术、生活和思考的个人博客"  # 副标题，支持 Markdown
+  title = "Robot & Chip"          # 大标题（不填则用 site.Title）
+  subtitle = "聚焦机器人、芯片、计算机技术"  # 副标题，支持 Markdown
   imageUrl = "/profile/yuanbao.jpg"       # 头像图片路径（放在 assets/ 或 static/ 下）
   imageTitle = "头像"             # 头像标题/alt 文本
   imageWidth = 150               # 头像宽度
@@ -41,33 +41,25 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "计算"
-    url = "/computing/"
+    name = "机器人"
+    url = "/robots/"
     weight = 2
   [[menu.main]]
-    name = "存储"
-    url = "/storage/"
+    name = "芯片"
+    url = "/chips/"
     weight = 3
   [[menu.main]]
-    name = "网络"
-    url = "/network/"
-    weight = 4
-  [[menu.main]]
-    name = "系统"
+    name = "计算机系统"
     url = "/system/"
-    weight = 5
+    weight = 4
   [[menu.main]]
     name = "碎碎念"
     url = "/posts/"
-    weight = 6
-  [[menu.main]]
-    name = "搜索"
-    url = "/search/"
-    weight = 7
+    weight = 5
   [[menu.main]]
     name = "关于"
     url = "/about/"
-    weight = 8
+    weight = 6
 
 [markup]
   [markup.goldmark.renderer]
